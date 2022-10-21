@@ -2,3 +2,41 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+#red{
+  color:red;
+}
+
+.cabecalho{
+  text-align: center;
+  padding: 15px;
+}
+.conteudo {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+} .conteudo #post{
+  font-size: 18pt;
+  font-family: Candara;
+  text-decoration: underline;
+}
+
+#area-menu{
+  background-color: #fe6264;
+  text-align: center;
+  font-family: calibri;
+  font-size: 18pt;
+  padding: 15px;
+}#area-menu a{
+  padding: 20px;
+  text-decoration: none;
+  color:white;
+} #area-menu a:hover {
+    color: #ffffff;
+    background-color: red;
+    text-decoration: none;
+} #area-menu #selected{
+    color: #ffffff;
+    background-color: red;
+    text-decoration: none;
+}
